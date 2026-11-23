@@ -1,0 +1,16 @@
+{
+  "name": "elastic-portfolio-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Free creative portfolio template with elastic letters and a talking cut-out link launcher.",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.cjs",
+    "test": "node check.cjs && node check-interaction.cjs",
+    "start": "python3 -m http.server 8080",
+    "check:release": "npm test && node check-release.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
