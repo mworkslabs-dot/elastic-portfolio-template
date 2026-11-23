@@ -17,7 +17,7 @@ Built while refreshing my own portfolio, then packaged so you can make it yours.
 - Biography, expandable questions, email link and responsive layouts.
 - Reduced-motion support and original SVG placeholders. No tracking, paid fonts, API keys or dependencies.
 
-[See the original portfolio](https://www.moushettemaquilon.com/) · [Watch the sample feature demo](demo.mp4)
+[Try the live template](https://mworkslabs-dot.github.io/elastic-portfolio-template/) · [See the original portfolio](https://www.moushettemaquilon.com/) · [Watch the sample feature demo](demo.mp4)
 
 The video is a rendered feature demo using the same letter physics and cut-out composition, rather than a screen recording. `index.html` is the actual interactive demo.
 
@@ -90,4 +90,4 @@ MIT licensed. Free to use and adapt, including commercially. Keep the license no
 
 ## Validation and limits
 
-Run `npm test` for source parsing, content and local asset checks. `npm run check:release` additionally verifies that this original release has only placeholder SVGs and sample contact details; it is not intended to pass after you add your own photographs. The physics, gallery entry, head toggle and reduced-motion behavior are checked with a simulated DOM; these are not full browser or device tests. Browser review of the public template remains pending. Physical device behavior and performance vary with font, image size and browser; test your own material before sharing.
+Run `npm test` for source parsing, content and local asset checks. `npm run check:release` additionally verifies that this original release has only placeholder SVGs and sample contact details; it is not intended to pass after you add your own photographs. The physics, gallery entry, head toggle and reduced-motion behavior are checked with a simulated DOM; these are not full browser or device tests. The published template was also checked in a desktop browser for letter keyboard interaction, menu and project navigation, loaded sample images and the talking-head link toggle. Physical device behavior and performance vary with font, image size and browser; test your own material before sharing.
